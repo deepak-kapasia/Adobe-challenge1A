@@ -2,12 +2,11 @@
 
 # PDF Outline Extractor – Round 1A Submission
 
-## 🧩 Challenge: Understand Your Document  
+##  Challenge: Understand Your Document  
 **Theme**: *Connecting the Dots Through Docs*
 
 This project is a solution for Round 1A of the Adobe India Hackathon 2025. The goal is to **automatically extract the Title and a hierarchical structure of Headings (H1, H2, H3)** from any input PDF — enabling smarter document understanding.
 
----
 
 ## 🚀 Approach
 
@@ -36,7 +35,7 @@ Our pipeline processes PDF files using the following steps:
    - `"text"`: heading text
    - `"page"`: page number
 
----
+
 
 ## 📚 Libraries & Tools Used
 
@@ -46,7 +45,7 @@ Our pipeline processes PDF files using the following steps:
 - `Python 3.9+` – implementation language.
 - **No external APIs or internet dependencies** used. Works entirely offline.
 
----
+
 
 ## 🐳 How to Build and Run (Dockerized)
 
@@ -69,7 +68,7 @@ docker run --rm \
 > 📂 Place your input PDFs inside the `input/` directory.
 > 📄 For each `filename.pdf`, a corresponding `filename.json` will be created inside `output/`.
 
----
+
 
 ## 📁 Directory Structure
 
@@ -86,7 +85,7 @@ docker run --rm \
     └── heading_detector.py
 ```
 
----
+
 
 ## ✅ Compliance with Challenge Constraints
 
@@ -98,7 +97,7 @@ docker run --rm \
 | ⚙️ CPU-Only (amd64)    | ✅ Compatible             |
 | 🛠 Dockerized          | ✅ Fully Dockerized       |
 
----
+
 
 ## 📦 Output Format Example
 
@@ -113,9 +112,6 @@ docker run --rm \
 }
 ```
 
----
-
-
 
 ## 📝 Notes
 
@@ -125,4 +121,3 @@ docker run --rm \
   * Integrating a lightweight ML classifier for better heading classification
   * Improving font-style-based detection using `pdfplumber` layout heuristics
 
----
