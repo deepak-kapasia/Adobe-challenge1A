@@ -1,12 +1,6 @@
 # Adobe-challenge1A
-Here is a **ready-to-use `README.md` file** tailored for your **Round 1A: Understand Your Document** Hackathon Challenge.
 
-You can copy this content directly into a file named `README.md` in your project root.
-
----
-
-````markdown
-# 📄 PDF Outline Extractor – Round 1A Submission
+# PDF Outline Extractor – Round 1A Submission
 
 ## 🧩 Challenge: Understand Your Document  
 **Theme**: *Connecting the Dots Through Docs*
