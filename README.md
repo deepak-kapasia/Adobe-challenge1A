@@ -52,7 +52,7 @@ Our pipeline processes PDF files using the following steps:
 ### 🔨 Build the Docker Image
 
 ```bash
-docker build --platform linux/amd64 -t pdf-outline-extractor .
+docker build --platform linux/amd64 -t pdf-processor .
 ````
 
 ### ▶️ Run the Container
@@ -62,7 +62,7 @@ docker run --rm \
   -v $(pwd)/input:/app/input \
   -v $(pwd)/output:/app/output \
   --network none \
-  pdf-outline-extractor
+  pdf-processor
 ```
 
 > 📂 Place your input PDFs inside the `input/` directory.
